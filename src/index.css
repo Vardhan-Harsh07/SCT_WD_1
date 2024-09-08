@@ -1,0 +1,21 @@
+/* src/index.css or src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Define the custom font */
+/* src/assets/fonts/fonts.css */
+@font-face {
+  font-family: 'ASpaceBlack';
+  src: url('./assets/A-Space Black Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family:  'ASpaceBlack','Space Grotesk', sans-serif;
+  color-scheme: dark;
+}
