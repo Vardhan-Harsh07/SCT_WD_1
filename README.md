@@ -23,13 +23,13 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/mclaren-f1-landing-page.git
+    git clone https://github.com/Vardhan-Harsh07/SCT_WD_1.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd mclaren-f1-landing-page
+    cd SCT_WD_1
     ```
 
 3. Install dependencies:
