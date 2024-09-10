@@ -7,10 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Space Grotesk', 'ASpaceBlack', 'sans-serif'],
-      },
-      // Add custom font if you have specific names for the fonts
-      fontFamily: {
+        sans: ['Space Grotesk', 'sans-serif'],
         aSpaceBlack: ['ASpaceBlack', 'sans-serif'],
       },
     },

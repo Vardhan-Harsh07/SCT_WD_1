@@ -1,144 +1,150 @@
-import { Car } from "lucide-react"; // For performance/engine
-import { BatteryCharging } from "lucide-react"; // For powertrain and hybrid technology
-import { Wind } from "lucide-react"; // For aerodynamics
-import { ShieldCheck } from "lucide-react"; // For safety features
-import { Sofa } from "lucide-react"; // For luxury interior
-import { Wifi } from "lucide-react"; // For connectivity features
+import { Car, BatteryCharging, Wind, ShieldCheck, Rocket, Cpu } from "lucide-react";
 
 export const features = [
   {
     icon: <Car />,
-    text: "Performance Engine",
-    description: "Experience thrilling speed and power with the McLaren’s twin-turbo V8 engine, delivering up to 700 horsepower.",
+    text: "High-Performance Engine",
+    description: "The car features a high-revving turbocharged V6 engine designed for maximum power and speed, pushing the limits of performance on the track.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Advanced Powertrain",
-    description: "A hybrid-electric powertrain enhances both efficiency and torque, pushing the boundaries of high-performance driving.",
+    text: "Hybrid Power Unit",
+    description: "An advanced hybrid power unit combines a turbocharged engine with an energy recovery system to optimize performance and fuel efficiency during races.",
   },
   {
     icon: <Wind />,
-    text: "Aerodynamic Design",
-    description: "Precision-engineered aerodynamics ensure optimal downforce and minimal drag, allowing for smooth handling at high speeds.",
+    text: "Advanced Aerodynamics",
+    description: "State-of-the-art aerodynamic design includes adjustable front and rear wings, and a sophisticated floor to maximize downforce and reduce drag.",
   },
   {
     icon: <ShieldCheck />,
-    text: "Unmatched Safety",
-    description: "Equipped with advanced safety systems, including dynamic stability control and reinforced impact protection, ensuring a secure drive.",
+    text: "Robust Safety Systems",
+    description: "Equipped with the latest safety features, including a reinforced monocoque and advanced crash structures, ensuring driver protection in high-speed conditions.",
   },
   {
-    icon: <Sofa />,
-    text: "Luxury Interior",
-    description: "Immerse yourself in opulence with a fully customizable leather interior, ambient lighting, and a cutting-edge infotainment system.",
+    icon: <Rocket />,
+    text: "Exceptional Acceleration",
+    description: "Engineered for rapid acceleration, the car achieves 0-60 mph in under 2.5 seconds, delivering explosive speed on straightaways and corners.",
   },
   {
-    icon: <Wifi />,
-    text: "Seamless Connectivity",
-    description: "Stay connected with real-time updates, GPS navigation, and 5G-integrated infotainment systems for a modern driving experience.",
+    icon: <Cpu />,
+    text: "Track-Optimized Technology",
+    description: "Incorporates advanced telemetry systems and real-time data analysis to monitor and adjust performance parameters for each specific track condition.",
   },
 ];
 
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
+
+import lando from "../assets/profile-pictures/lando.jpg";
+import oscar from "../assets/profile-pictures/oscar.jpg";
+import andrea from "../assets/profile-pictures/andrea.jpeg";
+import laura from "../assets/profile-pictures/laura.jpeg";
+import steve from "../assets/profile-pictures/steve.jpeg";
+import zak from "../assets/profile-pictures/zak.jpeg";
 
 export const navItems = [
-  { label: "About Us", href: "/about" },
-  { label: "Our Team", href: "/team" },
-  { label: "Services", href: "/services" },
-  { label: "Vehicles", href: "/vehicles" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "About Us", href: "#hero" },            // Scrolls to the hero section
+  { label: "Vehicle Performance", href: "#performance" }, // Scrolls to the performance section
+  { label: "Livery Design", href: "#livery" },     // Scrolls to the livery section
+  { label: "Our Team", href: "#team" },            // Scrolls to the team section
+  { label: "Contact Us", href: "#contact" },       // Scrolls to the contact section
 ];
+   // Contact information for inquiries and support.
+  // { label: "Footer", href: "/footer" },           // Additional links and information available in the footer.
+ 
 
 export const testimonials = [
   {
-    user: "John Doe",
-    position: "Principal",
-    image: user1,  // Use their photo or a placeholder
-    text: "Leading this team has been a great honor. Our dedication and collaboration make us stand out.",
-  },
-  {
-    user: "Sarah Miller",
-    position: "Vice Principal",
-    image: user2,
-    text: "Working with such a committed staff and team has made all our projects a success.",
-  },
-  {
-    user: "David Johnson",
+    user: "Lando Norris",
     position: "Driver",
-    image: user3,
-    text: "I take pride in ensuring the safe transport of our team and supporting their daily needs.",
+    image: lando,  // Use their photo or a placeholder
+    text: "As one of the drivers, I represent the team's hard work and dedication on the track. It’s an incredible experience to push the limits and showcase what we can achieve together.",
   },
   {
-    user: "Emily Davis",
-    position: "Support Staff",
-    image: user4,
-    text: "I love being part of such a dynamic and caring group of professionals. Every day brings new learning opportunities.",
-  },
-  {
-    user: "Michael Brown",
+    user: "Oscar Piastri",
     position: "Driver",
-    image: user5,
-    text: "It's a privilege to be part of this amazing team, ensuring everyone gets where they need to go safely and on time.",
+    image: oscar,
+    text: "Driving for this team has been an exhilarating journey. Our collective passion and commitment fuel our success, both on and off the racetrack.",
   },
+  {
+    user: "Zak Brown",
+    position: "Chief Executive Officer",
+    image: zak,
+    text: "As CEO, my goal is to steer the team towards long-term success, fostering a culture of innovation and excellence in everything we do.",
+  },
+  {
+    user: "Andrea Stella",
+    position: "Team Principal",
+    image: andrea,
+    text: "As Team Principal, I manage all aspects of our performance, ensuring that our team is prepared, motivated, and always pushing for the best results on the grid.",
+  },
+  {
+    user: "Laura Bowden",
+    position: "Chief Financial Officer",
+    image: laura,
+    text: "As CFO, I ensure that our financial strategies are aligned with our vision, supporting the team's operations and ambitions to stay competitive on all fronts.",
+  },
+  {
+    user: "Steve Atkins",
+    position: "Chief Communications Officer",
+    image: steve,
+    text: "My role as Chief Communications Officer is to make sure our team's message is clear, inspiring, and reaches every corner of the motorsport world.",
+  }
 ];
 
 
 export const checklistItems = [
   {
-    title: "Seamless Communication",
-    description: "Our team members and drivers are always in sync through our communication channels.",
+    title: "Innovative Design Elements",
+    description: "Incorporate cutting-edge graphics and patterns to create a striking and unique livery that captures attention on the track.",
   },
   {
-    title: "Real-Time Vehicle Availability",
-    description: "Check vehicle availability in real-time to ensure smooth scheduling and operations.",
+    title: "Brand Identity Integration",
+    description: "Seamlessly integrate sponsor logos and team branding to maintain a cohesive and professional appearance.",
   },
   {
-    title: "Fuel Efficiency",
-    description: "We prioritize fuel efficiency to reduce costs and environmental impact.",
+    title: "Aerodynamic Aesthetics",
+    description: "Design with aerodynamics in mind to ensure the livery complements the car's performance and enhances its visual appeal.",
   },
   {
-    title: "Punctuality",
-    description: "Our drivers and staff work together to ensure timely transport and seamless operations.",
+    title: "High-Quality Finishes",
+    description: "Utilize premium materials and finishes to ensure the livery looks exceptional from all angles and withstands the rigors of racing.",
   },
 ];
 
-export const pricingOptions = [
-  {
-    title: "Basic Service",
-    price: "$50",
-    features: [
-      "2 Vehicle Rides per Day",
-      "Standard Vehicles",
-      "Basic Support",
-    ],
-  },
-  {
-    title: "Premium Service",
-    price: "$100",
-    features: [
-      "Unlimited Rides",
-      "Luxury Vehicles",
-      "Priority Support",
-    ],
-  },
-  {
-    title: "Enterprise Service",
-    price: "$200",
-    features: [
-      "Customized Fleet Management",
-      "Real-Time Vehicle Monitoring",
-      "Dedicated Driver and Vehicle",
-    ],
-  },
-];
+
+// export const pricingOptions = [
+//   {
+//     title: "Basic Service",
+//     price: "$50",
+//     features: [
+//       "2 Vehicle Rides per Day",
+//       "Standard Vehicles",
+//       "Basic Support",
+//     ],
+//   },
+//   {
+//     title: "Premium Service",
+//     price: "$100",
+//     features: [
+//       "Unlimited Rides",
+//       "Luxury Vehicles",
+//       "Priority Support",
+//     ],
+//   },
+//   {
+//     title: "Enterprise Service",
+//     price: "$200",
+//     features: [
+//       "Customized Fleet Management",
+//       "Real-Time Vehicle Monitoring",
+//       "Dedicated Driver and Vehicle",
+//     ],
+//   },
+// ];
 
 export const resourcesLinks = [
-  { href: "/get-started", text: "Getting Started with Our Services" },
+  { href: "/get-started", text: "Our Services" },
   { href: "/drivers", text: "Meet Our Drivers" },
   { href: "/safety", text: "Safety Standards" },
   { href: "/support", text: "Contact Support" },
@@ -156,4 +162,28 @@ export const communityLinks = [
   { href: "/team-meetups", text: "Team Meetups" },
   { href: "/driver-conferences", text: "Driver Conferences" },
   { href: "/join-team", text: "Join Our Team" },
+];
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
+export const Socials = [
+  { 
+    href: "https://www.instagram.com", 
+    text: "Instagram", 
+    icon: <FaInstagram /> 
+  },
+  { 
+    href: "https://www.facebook.com", 
+    text: "Facebook", 
+    icon: <FaFacebook /> 
+  },
+  { 
+    href: "https://www.linkedin.com", 
+    text: "LinkedIn", 
+    icon: <FaLinkedin /> 
+  },
+  { 
+    href: "https://www.twitter.com", 
+    text: "Twitter", 
+    icon: <FaTwitter /> 
+  }
 ];
