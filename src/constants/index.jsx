@@ -39,7 +39,7 @@ import lando from "../assets/profile-pictures/lando.jpg";
 import oscar from "../assets/profile-pictures/oscar.jpg";
 import andrea from "../assets/profile-pictures/andrea.jpeg";
 import laura from "../assets/profile-pictures/laura.jpeg";
-import steve from "../assets/profile-pictures/steve.jpeg";
+import steve from "../assets/profile-pictures/STEVE.jpeg";
 import zak from "../assets/profile-pictures/zak.jpeg";
 
 export const navItems = [
